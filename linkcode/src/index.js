@@ -17,7 +17,7 @@ ReactDOM.render(
   <div className='flex'>
   <Header/>
   <img src = {imgSrc} alt = 'Linkcode image' style={imgStyle} />
-  <Footer/>
+  <Footer dayCount='5'/>
   </div>
   ,
   document.getElementById("root"),
